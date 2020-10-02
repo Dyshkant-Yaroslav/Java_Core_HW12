@@ -1,0 +1,18 @@
+
+
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+  	 id 'java-library'
+     id 'war'
+}
+
+repositories {
+   
+     mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'  
+    runtime 'javax.servlet:servlet-api:2.5'
+    runtime 'javax.servlet:jstl:1.1.2'
+}
